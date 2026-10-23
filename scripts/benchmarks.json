@@ -1,0 +1,175 @@
+{
+  "reviewedAt": "2026-10-23",
+  "policy": "Values are reviewed publication benchmarks. Automated checks confirm numeric anchors or unchanged report bytes; they do not invent updated annual statistics. A changed source requires review before curated values change.",
+  "releaseDiscovery": [
+    {
+      "id": "ic3-annual-report",
+      "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports",
+      "currentReportYear": 2025,
+      "linkPattern": "/AnnualReport/Reports/(20\\d{2})_IC3Report\\.pdf",
+      "onNewerReport": "review-required"
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "breachCost",
+      "value": "US$4.44m",
+      "label": "Average global breach cost · 2025",
+      "description": "Global mean in IBM’s 2025 study of 600 breached organisations, covering March 2024 to February 2025. Historical benchmark, not a Cyberonik result or your expected loss.",
+      "sourceName": "IBM · 2025",
+      "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+      "period": "2025 study",
+      "publishedAt": "2025-07-30",
+      "anchors": [
+        "$4.44 million",
+        "600 organizations",
+        "March 2024",
+        "February 2025"
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "value": "241 days",
+      "label": "Identify-and-contain lifecycle · 2025",
+      "description": "Global mean breach lifecycle in IBM’s 2025 study. This combines identification and containment; it is not continuous downtime or a service response target.",
+      "sourceName": "IBM · 2025",
+      "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+      "period": "2025 study",
+      "publishedAt": "2025-07-30",
+      "anchors": [
+        "241 days",
+        "mean time to identify and contain"
+      ]
+    },
+    {
+      "id": "aiChange",
+      "value": "94%",
+      "label": "Expect AI to reshape cybersecurity · 2026",
+      "description": "Share of WEF respondents who anticipated AI as the biggest driver of cybersecurity change in 2026. The survey covered 804 qualified participants across 92 countries; this measures expectations, not attack growth.",
+      "sourceName": "World Economic Forum · 2026",
+      "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
+      "period": "2026 outlook; survey in 2025",
+      "anchors": [
+        "94% of survey respondents",
+        "driver of change in cybersecurity"
+      ],
+      "verification": {
+        "kind": "sha256",
+        "hash": "841a3a6aa054baec531c1870d4157727bdbfeb672227d78a29251c0ba59bf82c"
+      },
+      "publishedAt": "2026-01-12",
+      "sourcePage": 18,
+      "methodologyPage": 57
+    },
+    {
+      "id": "shadowAi",
+      "value": "US$670,000",
+      "label": "Higher cost with extensive shadow AI · 2025",
+      "description": "Average breach-cost difference between high and low or no shadow-AI use in IBM’s 2025 study. An observed comparison, not a forecast for your organisation.",
+      "sourceName": "IBM · 2025",
+      "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+      "period": "2025 study",
+      "publishedAt": "2025-07-30",
+      "anchors": [
+        "$670,000",
+        "high levels of shadow AI",
+        "low level or no shadow AI"
+      ]
+    },
+    {
+      "id": "defenceAi",
+      "value": "US$1.9m",
+      "label": "Lower cost with extensive security AI · 2025",
+      "description": "Extensive security AI and automation users had lower mean breach costs and an 80-day shorter lifecycle than non-users in IBM’s 2025 study. The association does not establish AI alone caused the difference.",
+      "sourceName": "IBM · 2025",
+      "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+      "period": "2025 study",
+      "publishedAt": "2025-07-30",
+      "anchors": [
+        "$1.9 million",
+        "80 days",
+        "AI and automation extensively"
+      ]
+    },
+    {
+      "id": "fraud",
+      "value": "77%",
+      "label": "Reported rising fraud and phishing · 2025",
+      "description": "Share of WEF respondents who perceived more cyber-enabled fraud and phishing during 2025. This is a survey perception, not a 77% increase in measured attack volume.",
+      "sourceName": "World Economic Forum · 2026",
+      "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
+      "period": "2026 outlook; perception of 2025",
+      "anchors": [
+        "77% of respondents reported an increase in cyber-enabled fraud and phishing"
+      ],
+      "verification": {
+        "kind": "sha256",
+        "hash": "841a3a6aa054baec531c1870d4157727bdbfeb672227d78a29251c0ba59bf82c"
+      },
+      "publishedAt": "2026-01-12",
+      "sourcePage": 30,
+      "methodologyPage": 57
+    },
+    {
+      "id": "breachCost2026",
+      "value": "US$4.99m",
+      "label": "Average global breach cost · 2026",
+      "description": "Global mean in IBM’s 2026 study of 602 organisations breached between March 2025 and February 2026. An annual research benchmark, not a live loss counter or your expected loss.",
+      "sourceName": "IBM · 2026",
+      "sourceUrl": "https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average",
+      "period": "2026 study",
+      "publishedAt": "2026-07-29",
+      "anchors": [
+        "$4.99 million",
+        "602 organizations globally",
+        "March 2025",
+        "February 2026"
+      ]
+    },
+    {
+      "id": "reportedLosses2025",
+      "value": "US$20.877bn",
+      "label": "Internet-crime losses reported to IC3 · 2025",
+      "description": "Losses in complaints received by FBI IC3 during 2025, rounded as in the annual report. This is not all worldwide cybercrime, not businesses only and not a live counter.",
+      "sourceName": "FBI IC3 · 2025 Annual Report",
+      "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+      "period": "2025 calendar year",
+      "anchors": [],
+      "verification": {
+        "kind": "sha256",
+        "hash": "7d1fe453237654d2edcf89b0dd6b8b4b2e633fc1d5d5cfbd7dad5f7c1604a0a2"
+      },
+      "sourcePage": 6
+    },
+    {
+      "id": "becLosses2025",
+      "value": "US$3.047bn",
+      "label": "Business email compromise losses · 2025",
+      "description": "US$3,046,598,558 in losses reported to FBI IC3 under business email compromise during 2025. Included within IC3’s overall reported-loss total; do not add it again.",
+      "sourceName": "FBI IC3 · 2025 Annual Report",
+      "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+      "period": "2025 calendar year",
+      "anchors": [],
+      "verification": {
+        "kind": "sha256",
+        "hash": "7d1fe453237654d2edcf89b0dd6b8b4b2e633fc1d5d5cfbd7dad5f7c1604a0a2"
+      },
+      "sourcePage": 8
+    },
+    {
+      "id": "aiRelatedLosses2025",
+      "value": "US$893.35m",
+      "label": "Losses in complaints referencing AI · 2025",
+      "description": "US$893,346,472 in reported IC3 losses carrying an AI-related descriptor. This category overlaps crime types and the overall total; it is not a separate sum or a count of proven AI-caused breaches.",
+      "sourceName": "FBI IC3 · 2025 Annual Report",
+      "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+      "period": "2025 calendar year",
+      "anchors": [],
+      "verification": {
+        "kind": "sha256",
+        "hash": "7d1fe453237654d2edcf89b0dd6b8b4b2e633fc1d5d5cfbd7dad5f7c1604a0a2"
+      },
+      "sourcePage": 8
+    }
+  ]
+}

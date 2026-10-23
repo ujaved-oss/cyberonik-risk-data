@@ -1,0 +1,51 @@
+name: Refresh public cyber-risk data
+
+on:
+  schedule:
+    - cron: '23 */8 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/refresh.yml'
+      - 'scripts/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: risk-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - name: Check out public collector
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Use Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+      - name: Test collector safeguards
+        run: node --test scripts/core.test.mjs
+      - name: Collect and validate source data
+        id: collect
+        continue-on-error: true
+        run: node scripts/collect.mjs --previous data/latest.json --output data/latest.json --config scripts/benchmarks.json
+      - name: Save updated snapshot and source health
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public cyber-risk data"
+            git push
+          fi
+      - name: Report source check failure
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'One or more sources could not be verified. The snapshot retains prior data and exposes the failure status. See source timestamps and workflow logs.'
+          exit 1
