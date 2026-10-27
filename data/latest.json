@@ -1,48 +1,74 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T21:05:43.821Z",
+  "generatedAt": "2026-10-27T05:16:58.692Z",
   "sources": {
     "alerts": {
       "name": "CISA cybersecurity advisories",
       "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
       "status": "ok",
-      "lastAttemptAt": "2026-10-26T21:05:43.821Z",
-      "lastSuccessAt": "2026-10-26T21:05:43.821Z",
-      "dataDate": "2026-10-23T12:00:00.000Z"
+      "lastAttemptAt": "2026-10-27T05:16:58.692Z",
+      "lastSuccessAt": "2026-10-27T05:16:58.692Z",
+      "dataDate": "2026-10-26T12:00:00.000Z"
     },
     "kev": {
       "name": "CISA Known Exploited Vulnerabilities",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "status": "ok",
-      "lastAttemptAt": "2026-10-26T21:05:43.821Z",
-      "lastSuccessAt": "2026-10-26T21:05:43.821Z",
-      "dataDate": "2026-10-23T19:30:18.920Z"
+      "lastAttemptAt": "2026-10-27T05:16:58.692Z",
+      "lastSuccessAt": "2026-10-27T05:16:58.692Z",
+      "dataDate": "2026-10-26T22:24:24.610Z"
     },
     "epss": {
       "name": "FIRST EPSS",
       "url": "https://api.first.org/data/v1/epss",
       "status": "ok",
-      "lastAttemptAt": "2026-10-26T21:05:43.821Z",
-      "lastSuccessAt": "2026-10-26T21:05:43.821Z",
+      "lastAttemptAt": "2026-10-27T05:16:58.692Z",
+      "lastSuccessAt": "2026-10-27T05:16:58.692Z",
       "dataDate": "2026-10-26"
     },
     "benchmarks": {
       "name": "Published research source checks",
       "url": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "status": "ok",
-      "lastAttemptAt": "2026-10-26T21:05:43.821Z",
-      "lastSuccessAt": "2026-10-26T21:05:43.821Z",
+      "lastAttemptAt": "2026-10-27T05:16:58.692Z",
+      "lastSuccessAt": "2026-10-27T05:16:58.692Z",
       "message": "Source checks confirm the curated figures or unchanged source documents; they do not create new research observations."
     }
   },
   "kev": {
-    "catalogueVersion": "2026.10.23",
-    "dateReleased": "2026-10-23T19:30:18.920Z",
-    "total": 1756,
-    "addedLast7Days": 8,
+    "catalogueVersion": "2026.10.26",
+    "dateReleased": "2026-10-26T22:24:24.610Z",
+    "total": 1758,
+    "addedLast7Days": 4,
     "addedLast30Days": 30,
     "ransomwareKnownCount": 361,
     "latest": [
+      {
+        "cve": "CVE-2026-109619",
+        "vendor": "PHP Group",
+        "product": "PHP",
+        "name": "PHP Stale Internal Request-State Vulnerability",
+        "dateAdded": "2026-10-26",
+        "ransomware": false,
+        "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619",
+        "epss": 0.99997,
+        "percentile": 0.99989,
+        "scoreDate": "2026-10-26"
+      },
+      {
+        "cve": "CVE-2026-109618",
+        "vendor": "PHP Group",
+        "product": "PHP",
+        "name": "PHP Memory Corruption Vulnerability",
+        "dateAdded": "2026-10-26",
+        "ransomware": false,
+        "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618",
+        "epss": 0.99981,
+        "percentile": 0.99981,
+        "scoreDate": "2026-10-26"
+      },
       {
         "cve": "CVE-2026-114625",
         "vendor": "Arista",
@@ -172,36 +198,15 @@
         "epss": 0.01343,
         "percentile": 0.71162,
         "scoreDate": "2026-10-26"
-      },
-      {
-        "cve": "CVE-2026-21589",
-        "vendor": "Atlassian",
-        "product": "Multiple Products",
-        "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-        "dateAdded": "2026-10-15",
-        "ransomware": false,
-        "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589",
-        "epss": 0.99477,
-        "percentile": 0.99943,
-        "scoreDate": "2026-10-26"
-      },
-      {
-        "cve": "CVE-2026-76519",
-        "vendor": "Cisco",
-        "product": "Secure Email Gateway",
-        "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-        "dateAdded": "2026-10-14",
-        "ransomware": false,
-        "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519",
-        "epss": 0.02152,
-        "percentile": 0.82022,
-        "scoreDate": "2026-10-26"
       }
     ]
   },
   "alerts": [
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "publishedAt": "2026-10-26T12:00:00.000Z"
+    },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
@@ -256,11 +261,6 @@
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
       "publishedAt": "2026-10-04T12:00:00.000Z"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "publishedAt": "2026-10-02T12:00:00.000Z"
     }
   ],
   "benchmarks": [
@@ -272,7 +272,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -283,7 +283,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -294,7 +294,7 @@
       "sourceName": "World Economic Forum · 2026",
       "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
       "period": "2026 outlook; survey in 2025",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -305,7 +305,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -316,7 +316,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -327,7 +327,7 @@
       "sourceName": "World Economic Forum · 2026",
       "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
       "period": "2026 outlook; perception of 2025",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -338,7 +338,7 @@
       "sourceName": "IBM · 2026",
       "sourceUrl": "https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average",
       "period": "2026 study",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -349,7 +349,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -360,7 +360,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     },
     {
@@ -371,7 +371,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-10-26T21:05:43.821Z",
+      "checkedAt": "2026-10-27T05:16:58.692Z",
       "status": "verified"
     }
   ]
