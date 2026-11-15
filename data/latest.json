@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T06:49:42.676Z",
+  "generatedAt": "2026-11-15T15:43:39.587Z",
   "sources": {
     "alerts": {
       "name": "CISA cybersecurity advisories",
       "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
       "status": "ok",
-      "lastAttemptAt": "2026-11-15T06:49:42.676Z",
-      "lastSuccessAt": "2026-11-15T06:49:42.676Z",
+      "lastAttemptAt": "2026-11-15T15:43:39.587Z",
+      "lastSuccessAt": "2026-11-15T15:43:39.587Z",
       "dataDate": "2026-11-13T12:00:00.000Z"
     },
     "kev": {
       "name": "CISA Known Exploited Vulnerabilities",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "status": "ok",
-      "lastAttemptAt": "2026-11-15T06:49:42.676Z",
-      "lastSuccessAt": "2026-11-15T06:49:42.676Z",
+      "lastAttemptAt": "2026-11-15T15:43:39.587Z",
+      "lastSuccessAt": "2026-11-15T15:43:39.587Z",
       "dataDate": "2026-11-13T20:24:18.300Z"
     },
     "epss": {
       "name": "FIRST EPSS",
       "url": "https://api.first.org/data/v1/epss",
       "status": "ok",
-      "lastAttemptAt": "2026-11-15T06:49:42.676Z",
-      "lastSuccessAt": "2026-11-15T06:49:42.676Z",
-      "dataDate": "2026-11-14"
+      "lastAttemptAt": "2026-11-15T15:43:39.587Z",
+      "lastSuccessAt": "2026-11-15T15:43:39.587Z",
+      "dataDate": "2026-11-15"
     },
     "benchmarks": {
       "name": "Published research source checks",
       "url": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "status": "ok",
-      "lastAttemptAt": "2026-11-15T06:49:42.676Z",
-      "lastSuccessAt": "2026-11-15T06:49:42.676Z",
+      "lastAttemptAt": "2026-11-15T15:43:39.587Z",
+      "lastSuccessAt": "2026-11-15T15:43:39.587Z",
       "message": "Source checks confirm the curated figures or unchanged source documents; they do not create new research observations."
     }
   },
@@ -53,8 +53,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123039",
         "epss": 0.02191,
-        "percentile": 0.82739,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.82736,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-114713",
@@ -66,8 +66,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114713",
         "epss": 0.00508,
-        "percentile": 0.43896,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.43875,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-20320",
@@ -79,8 +79,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320",
         "epss": 0.00976,
-        "percentile": 0.62656,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.62655,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-125350",
@@ -92,8 +92,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-125350",
         "epss": 0.00962,
-        "percentile": 0.62184,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.62181,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-124194",
@@ -106,7 +106,7 @@
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194",
         "epss": 0.0162,
         "percentile": 0.7647,
-        "scoreDate": "2026-11-14"
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-116606",
@@ -119,7 +119,7 @@
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116606",
         "epss": 0.10947,
         "percentile": 0.95956,
-        "scoreDate": "2026-11-14"
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-111793",
@@ -131,8 +131,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793",
         "epss": 0.00638,
-        "percentile": 0.51153,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.5114,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-111560",
@@ -144,8 +144,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560",
         "epss": 0.09082,
-        "percentile": 0.95375,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.95377,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-123218",
@@ -157,8 +157,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123218",
         "epss": 0.00535,
-        "percentile": 0.45707,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.45691,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-123158",
@@ -171,7 +171,7 @@
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-123158",
         "epss": 0.189,
         "percentile": 0.97341,
-        "scoreDate": "2026-11-14"
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-116779",
@@ -183,8 +183,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116779",
         "epss": 0.02473,
-        "percentile": 0.84795,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.84793,
+        "scoreDate": "2026-11-15"
       },
       {
         "cve": "CVE-2026-102895",
@@ -196,8 +196,8 @@
         "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102895",
         "epss": 0.00517,
-        "percentile": 0.44564,
-        "scoreDate": "2026-11-14"
+        "percentile": 0.44547,
+        "scoreDate": "2026-11-15"
       }
     ]
   },
@@ -272,7 +272,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -283,7 +283,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -294,7 +294,7 @@
       "sourceName": "World Economic Forum · 2026",
       "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
       "period": "2026 outlook; survey in 2025",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -305,7 +305,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -316,7 +316,7 @@
       "sourceName": "IBM · 2025",
       "sourceUrl": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
       "period": "2025 study",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -327,7 +327,7 @@
       "sourceName": "World Economic Forum · 2026",
       "sourceUrl": "https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf",
       "period": "2026 outlook; perception of 2025",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -338,7 +338,7 @@
       "sourceName": "IBM · 2026",
       "sourceUrl": "https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average",
       "period": "2026 study",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -349,7 +349,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -360,7 +360,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     },
     {
@@ -371,7 +371,7 @@
       "sourceName": "FBI IC3 · 2025 Annual Report",
       "sourceUrl": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
       "period": "2025 calendar year",
-      "checkedAt": "2026-11-15T06:49:42.676Z",
+      "checkedAt": "2026-11-15T15:43:39.587Z",
       "status": "verified"
     }
   ]
